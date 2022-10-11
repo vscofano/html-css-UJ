@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>menu de navegação</title>
+    <style>
+        nav#menu {
+            
+            position: fixed;
+            width: 100%;
+            top: 0;
+            left: 150px;
+        }
+
+        ul{
+            list-style: none;
+            display: flex;
+        }
+        
+        li{
+            margin-right: 10px;
+        }
+
+    </style>
+    
+</head>
+<body>
+   
+    <nav id="menu">
+        <ul>
+                    <li><a href="home.html" target="_self">HOME</a></li>
+                    <li>SERVIÇOS</li>
+                    <ul>
+                    <li><a href="paisagismo.html" target="_self"> PAISAGISMO</a></li> 
+                    <li><a href="podas.html"target="_self">PODAS</a> </li>
+                    <li><a href="plantio.html"target="_self">PLANTIO DE GRAMA</a></li>
+                    <li><a href="jardinagem.html"target="_self">JARDINAGEM</a></li>
+                    <!-–Colocar todos os links respectivos em cada menu–->
+                </ul>
+            </li>
+            <li><a href="#">PORTIFÓLIO</a></li>
+            <li><a href="#">ORÇAMENTO</a></li>
+            <li><a href="#">LOJA</a></li> <!-–aqui vai uma imagem de carrinho (loja)–->
+        </ul>
+        </nav>
+</body>
+</html>

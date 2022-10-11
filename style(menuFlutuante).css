@@ -1,0 +1,62 @@
+
+        .bounce {
+        font-family: 'proxima-nova', sans-serif;
+        font-weight: 13px;
+        height: 20px;          /*ALTURA DA SEÇÃO */
+        overflow: hidden;
+        position: relative;
+        background: rgb(255, 255, 255);   /*COR DE FUNDO DA BARRA */
+        border:none;      /*LARGURA DA BORDA */
+        border-color: ; /*COR DA BORDA */
+        }
+        
+        .bounce p {
+        position: absolute;
+        width: 150%;
+        height: 100%;
+        margin: 0;
+        line-height: 15px;
+        text-align: center;
+        -moz-transform: translateX(50%);
+        -webkit-transform: translateX(50%);
+        transform: translateX(50%);
+        -moz-animation: bouncing-text 1s linear infinite alternate;
+        -webkit-animation: bouncing-text 1s linear infinite alternate;
+        animation: bouncing-text 25s linear infinite ;  /*TEMPO DA ANIMAÇÃO 30 SEGUNDOS */
+        padding-top: 1px;
+        padding-bottom: 1px;
+      
+        }
+       
+        
+        @-moz-keyframes bouncing-text {
+        0% {
+         -moz-transform: translateX(60%);
+        }
+        100% {
+         -moz-transform: translateX(-60%);
+        }
+        }
+        
+        @-webkit-keyframes bouncing-text {
+        0% {
+         -webkit-transform: translateX(60%);
+        }
+        100% {
+         -webkit-transform: translateX(-60%);
+        }
+        }
+        
+        @keyframes bouncing-text {
+        0% {
+         -moz-transform: translateX(60%);
+         -webkit-transform: translateX(60%);
+         transform: translateX(60%);
+        }
+        100% {
+         -moz-transform: translateX(-60%);
+         -webkit-transform: translateX(-60%);
+         transform: translateX(-60%);
+        }
+        }
+     
